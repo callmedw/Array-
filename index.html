@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.2.0.js"></script>
+	<script src="js/scripts.js"></script>
+    <title>favorite things using arrays</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>My Favorite things</h1>
+    </div>
+    <div class="container">
+		<form id="input-form" name="input-form">
+			<div class="form-group1">
+				<!-- form input for user to input the name: -->
+				<label for="name">Enter your name:</label> <input class="form-control" id="name" required="" type="text">
+			</div>
+      <div class="form-group2">
+        <!-- form input for user to input the favorite color: -->
+        <label for="color">What is your favorite color:</label> <input class="form-control" id="color" required="" type="text">
+      </div>
+      <div class="form-group3">
+        <!-- form input for user to input the favorite food: -->
+        <label for="food">What is your favorite food:</label> <input class="form-control" id="food" required="" type="text">
+      </div>
+      <div class="form-group4">
+        <!-- form input for user to input the favorite pet: -->
+        <label for="pet">What is your favorite pet:</label> <input class="form-control" id="pet" required="" type="text">
+      </div>
+      <div class="form-group5">
+        <!-- form input for user to input the best friend: -->
+        <label for="friend">Who is your best friend:</label> <input class="form-control" id="friend" required="" type="text">
+      </div>
+      <div class="form-group6">
+        <!-- form input for user to input the favorite vacation spot: -->
+        <label for="vacation">What is your ideal place for vacation:</label> <input class="form-control" id="vacation" required="" type="text">
+      </div>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div id="answer-div">
+    <p> Here are my favorite things: <span class="favoriteThings"></span>
+   <p>Hi My name is <span class="name"> </span>. My favourite things are: <span class="color"></span>, <span class="food"></span>, <span class="pet"></span>, <span class="friend"></span>, and <span class="vacation"></span>!
+    </div>
+  <div id="list">
+    <ul class="new array">
+      <li><span class="color-bullet"></span></li>
+      <li><span class="food-bullet"></span></li>
+      <li><span class="pet-bullet"></span></li>
+  </body>
+</html>
